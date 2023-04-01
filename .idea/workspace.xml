@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="28.03">
-      <change afterPath="$PROJECT_DIR$/src/test/java/NTday08_Assertion_DropDown/C01_Assertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NTday08_Assertion_DropDown/C02_DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/Odev01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/Odev02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/Odev03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/Task03_ForJUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day08/C01_Assertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day08/C02_DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day08/Odev01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day08/Odev02_YanlisEmailTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day02/C01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day02/C02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day02/C03.java" afterDir="false" />
+    <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="31.03">
+      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/Dummy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/Task04_ForJUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/NTday06_Maven/Odev_Actions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NTday06_Maven/Odev_Actions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/Task03_ForJUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bireysel/Task03_ForJUnit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,34 +55,49 @@
       <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Odev01.test01">
-    <configuration name="Odev01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Task03_ForJUnit">
+    <configuration name="Dummy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.*" />
+          <option name="PATTERN" value="bireysel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08" />
-      <option name="MAIN_CLASS_NAME" value="day08.Odev01" />
+      <option name="PACKAGE_NAME" value="bireysel" />
+      <option name="MAIN_CLASS_NAME" value="bireysel.Dummy" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dummy.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129_SeleniumMavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bireysel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bireysel" />
+      <option name="MAIN_CLASS_NAME" value="bireysel.Dummy" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Odev01.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Dummy.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.*" />
+          <option name="PATTERN" value="bireysel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08" />
-      <option name="MAIN_CLASS_NAME" value="day08.Odev01" />
-      <option name="METHOD_NAME" value="test03" />
+      <option name="PACKAGE_NAME" value="bireysel" />
+      <option name="MAIN_CLASS_NAME" value="bireysel.Dummy" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task03_ForJUnit.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task04_ForJUnit.dropDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
@@ -123,24 +127,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="bireysel" />
-      <option name="MAIN_CLASS_NAME" value="bireysel.Task03_ForJUnit" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task03_ForJUnit.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129_SeleniumMavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bireysel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bireysel" />
-      <option name="MAIN_CLASS_NAME" value="bireysel.Task03_ForJUnit" />
-      <option name="METHOD_NAME" value="test02" />
+      <option name="MAIN_CLASS_NAME" value="bireysel.Task04_ForJUnit" />
+      <option name="METHOD_NAME" value="dropDown" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Odev01.test01" />
-        <item itemvalue="JUnit.Odev01.test03" />
         <item itemvalue="JUnit.Task03_ForJUnit" />
-        <item itemvalue="JUnit.Task03_ForJUnit.test01" />
-        <item itemvalue="JUnit.Task03_ForJUnit.test02" />
+        <item itemvalue="JUnit.Dummy" />
+        <item itemvalue="JUnit.Dummy.test02" />
+        <item itemvalue="JUnit.Dummy.test01" />
+        <item itemvalue="JUnit.Task04_ForJUnit.dropDown" />
       </list>
     </recent_temporary>
   </component>
@@ -179,11 +167,19 @@
       <option name="project" value="LOCAL" />
       <updated>1680037212774</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="31.03">
+      <created>1680210878452</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680210878453</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="28.03" />
-    <option name="LAST_COMMIT_MESSAGE" value="28.03" />
+    <MESSAGE value="31.03" />
+    <option name="LAST_COMMIT_MESSAGE" value="31.03" />
   </component>
 </project>
