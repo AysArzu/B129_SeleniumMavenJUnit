@@ -61,5 +61,22 @@ public class Task04_ForJUnit {
             System.out.println(i + ". sayfa basligi: " + driver.getTitle());
             driver.navigate().back();
         }
+        /*
+        2.yol
+         int sayac=1;
+        for (WebElement w:select.getOptions()) {
+            Select option = new Select(driver.findElement(By.xpath("//*[@id='searchDropdownBox']")));
+            option.selectByIndex(sayac);
+            driver.findElement(By.xpath("//*[@type='submit']")).click();
+            System.out.println(driver.getTitle());
+            Thread.sleep(2000);
+            driver.navigate().back();
+            Thread.sleep(2000);
+            sayac++;
+            if (sayac>=6){
+                break;
+            }
+        }
+         */
     }
 }

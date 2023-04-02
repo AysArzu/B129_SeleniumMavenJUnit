@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="31.03">
-      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/Dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/Task04_ForJUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/Task05_ForJUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day09_DropDown_Allerts/C01_DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day09_DropDown_Allerts/C01_TestBaseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day09_DropDown_Allerts/C03_Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day10_Alert_Iframe/C01_AlertMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day10_Alert_Iframe/C02_Iframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/Task03_ForJUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bireysel/Task03_ForJUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/C01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bireysel/Odev04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/Odev01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bireysel/Odev01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/Task04_ForJUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bireysel/Task04_ForJUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bireysel/Dummy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bireysel/Dummy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bireysel/Odev01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bireysel/Odev01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bireysel/Task03_ForJUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bireysel/Task03_ForJUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bireysel/Task04_ForJUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bireysel/Task04_ForJUnit.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,70 +66,55 @@
       <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task03_ForJUnit">
-    <configuration name="Dummy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Odev04.iframeTest">
+    <configuration name="C01_AlertMethods.sendKeysAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bireysel.*" />
+          <option name="PATTERN" value="day10_Alert_Iframe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bireysel" />
-      <option name="MAIN_CLASS_NAME" value="bireysel.Dummy" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dummy.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129_SeleniumMavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bireysel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bireysel" />
-      <option name="MAIN_CLASS_NAME" value="bireysel.Dummy" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="day10_Alert_Iframe" />
+      <option name="MAIN_CLASS_NAME" value="day10_Alert_Iframe.C01_AlertMethods" />
+      <option name="METHOD_NAME" value="sendKeysAlert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dummy.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_Iframe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bireysel.*" />
+          <option name="PATTERN" value="day10_Alert_Iframe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bireysel" />
-      <option name="MAIN_CLASS_NAME" value="bireysel.Dummy" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task03_ForJUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129_SeleniumMavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bireysel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bireysel" />
-      <option name="MAIN_CLASS_NAME" value="bireysel.Task03_ForJUnit" />
+      <option name="PACKAGE_NAME" value="day10_Alert_Iframe" />
+      <option name="MAIN_CLASS_NAME" value="day10_Alert_Iframe.C02_Iframe" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task04_ForJUnit.dropDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_Iframe.iframe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129_SeleniumMavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day10_Alert_Iframe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day10_Alert_Iframe" />
+      <option name="MAIN_CLASS_NAME" value="day10_Alert_Iframe.C02_Iframe" />
+      <option name="METHOD_NAME" value="iframe" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Odev04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +123,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="bireysel" />
-      <option name="MAIN_CLASS_NAME" value="bireysel.Task04_ForJUnit" />
-      <option name="METHOD_NAME" value="dropDown" />
+      <option name="MAIN_CLASS_NAME" value="bireysel.Odev04" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Odev04.iframeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129_SeleniumMavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bireysel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bireysel" />
+      <option name="MAIN_CLASS_NAME" value="bireysel.Odev04" />
+      <option name="METHOD_NAME" value="iframeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Task03_ForJUnit" />
-        <item itemvalue="JUnit.Dummy" />
-        <item itemvalue="JUnit.Dummy.test02" />
-        <item itemvalue="JUnit.Dummy.test01" />
-        <item itemvalue="JUnit.Task04_ForJUnit.dropDown" />
+        <item itemvalue="JUnit.Odev04.iframeTest" />
+        <item itemvalue="JUnit.Odev04" />
+        <item itemvalue="JUnit.C02_Iframe.iframe" />
+        <item itemvalue="JUnit.C02_Iframe" />
+        <item itemvalue="JUnit.C01_AlertMethods.sendKeysAlert" />
       </list>
     </recent_temporary>
   </component>

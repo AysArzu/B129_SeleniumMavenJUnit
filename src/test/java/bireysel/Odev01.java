@@ -1,18 +1,13 @@
 package bireysel;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.time.Duration;
+import utilities.TestBase;
 import java.util.List;
 
-public class Odev01 {
+public class Odev01 extends TestBase {
     /*
     *** Aşağıdaki Task'i Junit framework'u ile yapınız
     - ebay sayfasına gidiniz
@@ -22,22 +17,6 @@ public class Odev01 {
     - sayfayı kapatalım
      */
     WebDriver driver;
-
-    @Before
-    public void setUp() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-
-    }
-
-    @After
-    public void tearDown() throws InterruptedException {
-        //- sayfayı kapatalım
-        Thread.sleep(3000);
-        driver.close();
-    }
 
     @Test
     public void test01() {
