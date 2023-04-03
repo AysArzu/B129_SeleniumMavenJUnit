@@ -31,8 +31,8 @@ public class Odev04 extends TestBase {
         textbox.clear();
         textbox.sendKeys("Merhaba Dunya!");
 
-//○TextBox’in altinda bulunan “Elemental Selenium” linkini textinin gorunur oldugunu dogrulayin ve
-// konsolda yazdirin
+        //○TextBox’in altinda bulunan “Elemental Selenium” linkini textinin gorunur oldugunu dogrulayin ve
+        // konsolda yazdirin
         driver.switchTo().defaultContent();
         System.out.println(driver.findElement(By.partialLinkText("Elemental S")).isDisplayed());
 
