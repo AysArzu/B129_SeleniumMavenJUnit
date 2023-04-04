@@ -34,15 +34,25 @@ public class C02_WindowHandle extends TestBase {
         //    Sayfa başlığının(title) “The Internet” olduğunu doğrulayın.
         String title = driver.getTitle();
         Assert.assertEquals("The Internet",title);
-        //    "Click Here" butonuna tıklayın.
+        //    "Click Here" butonuna tıklayın. TAB ACILIYOR.
         driver.findElement(By.linkText("Click Here")).click();
         //    Açılan pencereye geçin.
         //Bu safhada 2 pencere acik. 2. pencereye gecis yapiyorum
+        /*
+Eğer bir button'a tıkladığımızda bizim kontrolümüz dışında yeni bir pencere açılıyorsa
+o pencere içindeki WebElementleri handle edebilmem için swichTo() methodu ile geçiş yapmam gerekir.
+Fakat kontrolumuz dışında açıldığı için handle değerini bilmediğimiz için tüm açılan pencereleri
+getWindowHandles() methodunu kullanarak bir SET'e assign ederiz ya da ArrayList'e assign ederiz.
+ */
         Set<String> allWindowHandles =driver.getWindowHandles();
         for(String eachHandle :allWindowHandles ){
             if(!eachHandle.equals(window1Handle)){
                 driver.switchTo().window(eachHandle);
-            }
+            }/*
+        List<String> tumWindowHandles = new ArrayList<String>(driver.getWindowHandles());
+        driver.switchTo().window(tumWindowHandles.get(1));
+ */
+
         }
         //    Açılan yeni pencerenin sayfa başlığının(title) “New Window” olduğunu doğrulayın.
             String window2handle = driver.getTitle();

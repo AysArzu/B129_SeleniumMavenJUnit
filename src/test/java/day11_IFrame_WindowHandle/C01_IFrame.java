@@ -37,6 +37,7 @@ Sayfadaki "Elemental Selenium" yazısının görünür olduğunu doğrulayınız
         //Sayfadaki "Elemental Selenium" yazısının görünür olduğunu doğrulayınız.
         //Webelementimiz default page icerisinde yer aldigi icin once driver'i iFrame disina yani sayfamiza alalim
         //driver.switchTo().parentFrame(); Ust frame'e yani frame disina cikar
+        //driver.navigate().refresh(); Bu methodla sayfayi yeniledigimiz icin ilk bolume tekrar gecmis oluruz. Ama gonderdigimiz yazi silinir
         driver.switchTo().defaultContent();
         WebElement footer = driver.findElement(By.partialLinkText("Elemental S"));
         System.out.println(footer.isDisplayed());

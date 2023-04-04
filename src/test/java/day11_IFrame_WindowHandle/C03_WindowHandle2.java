@@ -17,7 +17,7 @@ public void newWindowTest(){
         Assert.assertEquals("Techpro Education | Online It Courses & Bootcamps",driver.getTitle());
 
         //Window 2 de youtube a gidiniz
-        driver.switchTo().newWindow(WindowType.WINDOW);
+        driver.switchTo().newWindow(WindowType.WINDOW);//==>YENI BIR PENCEREYE DRIVER'I TASIR
         driver.get("https://youtube.com");
         String youTuBeWindowHandle = driver.getWindowHandle();
 
