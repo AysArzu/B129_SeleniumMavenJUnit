@@ -56,11 +56,13 @@ public class C01_DropDown {
         // }
         stateList.forEach(t-> System.out.println(t.getText()));
         */
+
         //a. Tüm eyalet isimlerini yazdıralım
         List<WebElement> tumEyaletler = driver.findElements(By.xpath("//*[@id='state']//option"));
         System.out.println(tumEyaletler.get(2).getText());
         System.out.println("*****************************");
         tumEyaletler.forEach(t-> System.out.println(t.getText()));
+
         //b. Sayfadaki tüm ddm lerdeki tüm seçenekleri(option) konsolda yazdırınız
         System.out.println("******************************");
         List<WebElement> eyaletlerList = driver.findElements(By.tagName("option"));

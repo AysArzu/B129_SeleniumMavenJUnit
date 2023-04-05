@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="31.03">
-      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/Task06_IFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day11_IFrame_WindowHandle/C04_WindowHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day12_WindowHandle_BasicAuth/C01_WindowHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day12_WindowHandle_BasicAuth/C02_BasicAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day12_WindowHandle_BasicAuth/C03_Cookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day03/C01_DropdownMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day03/C02_DropDownOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day03/C03_CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day03/C04_RadioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day03/C05_Alert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/C02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bireysel/C02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day11_IFrame_WindowHandle/C01_IFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day11_IFrame_WindowHandle/C01_IFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day11_IFrame_WindowHandle/C02_WindowHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day11_IFrame_WindowHandle/C02_WindowHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day11_IFrame_WindowHandle/C03_WindowHandle2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day11_IFrame_WindowHandle/C03_WindowHandle2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day11_IFrame_WindowHandle/C01_IFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day11_IFrame_WindowHandle/C01_IFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day11_IFrame_WindowHandle/C02_WindowHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day11_IFrame_WindowHandle/C02_WindowHandle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day11_IFrame_WindowHandle/C03_WindowHandle2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day11_IFrame_WindowHandle/C03_WindowHandle2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day09_DropDown_Allerts/C01_DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day09_DropDown_Allerts/C01_DropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day12_WindowHandle_BasicAuth/C03_Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day12_WindowHandle_BasicAuth/C03_Cookies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day09_DropDown_Allerts/C01_DropDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day09_DropDown_Allerts/C01_DropDown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day12_WindowHandle_BasicAuth/C03_Cookies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day12_WindowHandle_BasicAuth/C03_Cookies.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,80 +62,79 @@
       <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C02.test1">
-    <configuration name="C02_BasicAuthentication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C05_Alert.test01">
+    <configuration name="C01_DropdownMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12_WindowHandle_BasicAuth.*" />
+          <option name="PATTERN" value="practice_day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day12_WindowHandle_BasicAuth" />
-      <option name="MAIN_CLASS_NAME" value="day12_WindowHandle_BasicAuth.C02_BasicAuthentication" />
+      <option name="PACKAGE_NAME" value="practice_day03" />
+      <option name="MAIN_CLASS_NAME" value="practice_day03.C01_DropdownMenu" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_BasicAuthentication.basicAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_DropdownMenu.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12_WindowHandle_BasicAuth.*" />
+          <option name="PATTERN" value="practice_day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day12_WindowHandle_BasicAuth" />
-      <option name="MAIN_CLASS_NAME" value="day12_WindowHandle_BasicAuth.C02_BasicAuthentication" />
-      <option name="METHOD_NAME" value="basicAuth" />
+      <option name="PACKAGE_NAME" value="practice_day03" />
+      <option name="MAIN_CLASS_NAME" value="practice_day03.C01_DropdownMenu" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_DropDownOptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bireysel.*" />
+          <option name="PATTERN" value="practice_day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bireysel" />
-      <option name="MAIN_CLASS_NAME" value="bireysel.C02" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="practice_day03" />
+      <option name="MAIN_CLASS_NAME" value="practice_day03.C02_DropDownOptions" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_DropDownOptions.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129_SeleniumMavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice_day03" />
+      <option name="MAIN_CLASS_NAME" value="practice_day03.C02_DropDownOptions" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_Cookies.cookiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C05_Alert.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12_WindowHandle_BasicAuth.*" />
+          <option name="PATTERN" value="practice_day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day12_WindowHandle_BasicAuth" />
-      <option name="MAIN_CLASS_NAME" value="day12_WindowHandle_BasicAuth.C03_Cookies" />
-      <option name="METHOD_NAME" value="cookiesTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task06_IFrame.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129_SeleniumMavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bireysel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bireysel" />
-      <option name="MAIN_CLASS_NAME" value="bireysel.Task06_IFrame" />
+      <option name="PACKAGE_NAME" value="practice_day03" />
+      <option name="MAIN_CLASS_NAME" value="practice_day03.C05_Alert" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -148,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C02.test1" />
-        <item itemvalue="JUnit.Task06_IFrame.test01" />
-        <item itemvalue="JUnit.C03_Cookies.cookiesTest" />
-        <item itemvalue="JUnit.C02_BasicAuthentication.basicAuth" />
-        <item itemvalue="JUnit.C02_BasicAuthentication" />
+        <item itemvalue="JUnit.C05_Alert.test01" />
+        <item itemvalue="JUnit.C02_DropDownOptions.test01" />
+        <item itemvalue="JUnit.C02_DropDownOptions" />
+        <item itemvalue="JUnit.C01_DropdownMenu.test01" />
+        <item itemvalue="JUnit.C01_DropdownMenu" />
       </list>
     </recent_temporary>
   </component>
