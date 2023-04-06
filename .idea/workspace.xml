@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="31.03">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day03/C01_DropdownMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day03/C02_DropDownOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day03/C03_CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day03/C04_RadioButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day03/C05_Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationExercise/Task11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/AutoComplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/FileUploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day13_ActionsClass/C01_Actions01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day13_ActionsClass/C02_Actions02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day13_ActionsClass/C03_Actions03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day13_ActionsClass/C04_Actions04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day09_DropDown_Allerts/C01_DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day09_DropDown_Allerts/C01_DropDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day12_WindowHandle_BasicAuth/C03_Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day12_WindowHandle_BasicAuth/C03_Cookies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day09_DropDown_Allerts/C01_DropDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day09_DropDown_Allerts/C01_DropDown.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day12_WindowHandle_BasicAuth/C03_Cookies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day12_WindowHandle_BasicAuth/C03_Cookies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,80 +61,82 @@
       <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C05_Alert.test01">
-    <configuration name="C01_DropdownMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C04_Actions04.dragAndDrop2">
+    <configuration name="C01_Actions01.actionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_day03.*" />
+          <option name="PATTERN" value="day13_ActionsClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice_day03" />
-      <option name="MAIN_CLASS_NAME" value="practice_day03.C01_DropdownMenu" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_DropdownMenu.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129_SeleniumMavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice_day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice_day03" />
-      <option name="MAIN_CLASS_NAME" value="practice_day03.C01_DropdownMenu" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="day13_ActionsClass" />
+      <option name="MAIN_CLASS_NAME" value="day13_ActionsClass.C01_Actions01" />
+      <option name="METHOD_NAME" value="actionsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_DropDownOptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_Actions02.hoverOver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_day03.*" />
+          <option name="PATTERN" value="day13_ActionsClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice_day03" />
-      <option name="MAIN_CLASS_NAME" value="practice_day03.C02_DropDownOptions" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_DropDownOptions.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129_SeleniumMavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice_day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice_day03" />
-      <option name="MAIN_CLASS_NAME" value="practice_day03.C02_DropDownOptions" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="day13_ActionsClass" />
+      <option name="MAIN_CLASS_NAME" value="day13_ActionsClass.C02_Actions02" />
+      <option name="METHOD_NAME" value="hoverOver" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_Alert.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_Actions03.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_day03.*" />
+          <option name="PATTERN" value="day13_ActionsClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice_day03" />
-      <option name="MAIN_CLASS_NAME" value="practice_day03.C05_Alert" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="day13_ActionsClass" />
+      <option name="MAIN_CLASS_NAME" value="day13_ActionsClass.C03_Actions03" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_Actions04.dragAndDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129_SeleniumMavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day13_ActionsClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day13_ActionsClass" />
+      <option name="MAIN_CLASS_NAME" value="day13_ActionsClass.C04_Actions04" />
+      <option name="METHOD_NAME" value="dragAndDrop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_Actions04.dragAndDrop2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129_SeleniumMavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day13_ActionsClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day13_ActionsClass" />
+      <option name="MAIN_CLASS_NAME" value="day13_ActionsClass.C04_Actions04" />
+      <option name="METHOD_NAME" value="dragAndDrop2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C05_Alert.test01" />
-        <item itemvalue="JUnit.C02_DropDownOptions.test01" />
-        <item itemvalue="JUnit.C02_DropDownOptions" />
-        <item itemvalue="JUnit.C01_DropdownMenu.test01" />
-        <item itemvalue="JUnit.C01_DropdownMenu" />
+        <item itemvalue="JUnit.C04_Actions04.dragAndDrop2" />
+        <item itemvalue="JUnit.C04_Actions04.dragAndDrop" />
+        <item itemvalue="JUnit.C03_Actions03.name" />
+        <item itemvalue="JUnit.C02_Actions02.hoverOver" />
+        <item itemvalue="JUnit.C01_Actions01.actionsTest" />
       </list>
     </recent_temporary>
   </component>

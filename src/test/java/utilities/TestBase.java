@@ -3,6 +3,7 @@ package utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,6 +12,8 @@ import org.openqa.selenium.support.ui.Select;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+
+import static org.junit.Assert.assertTrue;
 
 public abstract class TestBase {
     //TestBase class'indan obje olusturmanin onune gecilmesi icin abstract yapilabilir
@@ -89,6 +92,15 @@ public abstract class TestBase {
     }//SwitchToWindow2
     public static void window(int sayi){
         driver.switchTo().window(driver.getWindowHandles().toArray()[sayi].toString());
+    }
+    //AUTO COMPLETE REUSABLE METHOD
+    //THIS CODE IS USED FOR SELECTION AND VERIFYING OUR APP AUTO COMPLETE SEARCH FUNCTIONALITY
+    public static void searchAndSelectFromList(String keyword,String textFromList){
+
+        driver.findElement(By.id("myCountry")).sendKeys(keyword);
+        driver.findElement(By.xpath("//div[@id='myCountryautocomplete-list']//div[.='"+textFromList+"']")).click();
+        String result = driver.findElement(By.xpath("//p[@id='result']")).getText();
+        assertTrue(result.contains(textFromList));
     }
 
 }
