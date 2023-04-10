@@ -5,15 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="31.03">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationExercise/Task11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/AutoComplete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/FileUploadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day13_ActionsClass/C01_Actions01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day13_ActionsClass/C02_Actions02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day13_ActionsClass/C03_Actions03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day13_ActionsClass/C04_Actions04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NTday14_FakerClass_FileExist/C01_Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NTday14_FakerClass_FileExist/C02_FakerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NTday14_FakerClass_FileExist/C03_FileExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NTday14_FakerClass_FileExist/C04_FileDownloadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NTday14_FakerClass_FileExist/FakerClassOdevi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/Diemol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/OdevAmazonGiftCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/ScreenshotsOfEntirePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/UploadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day14_JavaFaker_FileExist/C01_Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day14_JavaFaker_FileExist/C02_JavaFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day14_JavaFaker_FileExist/C03_FileExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day14_JavaFaker_FileExist/C04_FileDownloadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationExercise/Task11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/AutoComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bireysel/AutoComplete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/Task03_ForJUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task03_ForJUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/Task04_ForJUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task04_ForJUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/Task05_ForJUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task05_ForJUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/Task06_IFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task06_IFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AutomationExercise/Task11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bireysel/AutoComplete.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bireysel/AutoComplete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bireysel/Task03_ForJUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bireysel/Task04_ForJUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bireysel/Task05_ForJUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bireysel/Task06_IFrame.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +62,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2NZHnGy69oCjNGl2JyOzcAXqqDN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -61,82 +83,81 @@
       <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C04_Actions04.dragAndDrop2">
-    <configuration name="C01_Actions01.actionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C04_FileDownloadTest.fileDownloadTest">
+    <configuration name="C02_FakerClass.faker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13_ActionsClass.*" />
+          <option name="PATTERN" value="NTday14_FakerClass_FileExist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day13_ActionsClass" />
-      <option name="MAIN_CLASS_NAME" value="day13_ActionsClass.C01_Actions01" />
-      <option name="METHOD_NAME" value="actionsTest" />
+      <option name="PACKAGE_NAME" value="NTday14_FakerClass_FileExist" />
+      <option name="MAIN_CLASS_NAME" value="NTday14_FakerClass_FileExist.C02_FakerClass" />
+      <option name="METHOD_NAME" value="faker" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_Actions02.hoverOver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_FileExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13_ActionsClass.*" />
+          <option name="PATTERN" value="NTday14_FakerClass_FileExist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day13_ActionsClass" />
-      <option name="MAIN_CLASS_NAME" value="day13_ActionsClass.C02_Actions02" />
-      <option name="METHOD_NAME" value="hoverOver" />
+      <option name="PACKAGE_NAME" value="NTday14_FakerClass_FileExist" />
+      <option name="MAIN_CLASS_NAME" value="NTday14_FakerClass_FileExist.C03_FileExist" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_FileExist.fileExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129_SeleniumMavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NTday14_FakerClass_FileExist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NTday14_FakerClass_FileExist" />
+      <option name="MAIN_CLASS_NAME" value="NTday14_FakerClass_FileExist.C03_FileExist" />
+      <option name="METHOD_NAME" value="fileExist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_Actions03.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_FileDownloadTest.fileDownloadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13_ActionsClass.*" />
+          <option name="PATTERN" value="NTday14_FakerClass_FileExist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day13_ActionsClass" />
-      <option name="MAIN_CLASS_NAME" value="day13_ActionsClass.C03_Actions03" />
-      <option name="METHOD_NAME" value="name" />
+      <option name="PACKAGE_NAME" value="NTday14_FakerClass_FileExist" />
+      <option name="MAIN_CLASS_NAME" value="NTday14_FakerClass_FileExist.C04_FileDownloadTest" />
+      <option name="METHOD_NAME" value="fileDownloadTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_Actions04.dragAndDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FakerClassOdevi.fakerClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13_ActionsClass.*" />
+          <option name="PATTERN" value="NTday14_FakerClass_FileExist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day13_ActionsClass" />
-      <option name="MAIN_CLASS_NAME" value="day13_ActionsClass.C04_Actions04" />
-      <option name="METHOD_NAME" value="dragAndDrop" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_Actions04.dragAndDrop2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129_SeleniumMavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day13_ActionsClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day13_ActionsClass" />
-      <option name="MAIN_CLASS_NAME" value="day13_ActionsClass.C04_Actions04" />
-      <option name="METHOD_NAME" value="dragAndDrop2" />
+      <option name="PACKAGE_NAME" value="NTday14_FakerClass_FileExist" />
+      <option name="MAIN_CLASS_NAME" value="NTday14_FakerClass_FileExist.FakerClassOdevi" />
+      <option name="METHOD_NAME" value="fakerClass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C04_Actions04.dragAndDrop2" />
-        <item itemvalue="JUnit.C04_Actions04.dragAndDrop" />
-        <item itemvalue="JUnit.C03_Actions03.name" />
-        <item itemvalue="JUnit.C02_Actions02.hoverOver" />
-        <item itemvalue="JUnit.C01_Actions01.actionsTest" />
+        <item itemvalue="JUnit.C04_FileDownloadTest.fileDownloadTest" />
+        <item itemvalue="JUnit.C03_FileExist.fileExist" />
+        <item itemvalue="JUnit.C03_FileExist" />
+        <item itemvalue="JUnit.FakerClassOdevi.fakerClass" />
+        <item itemvalue="JUnit.C02_FakerClass.faker" />
       </list>
     </recent_temporary>
   </component>

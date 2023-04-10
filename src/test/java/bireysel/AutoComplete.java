@@ -24,4 +24,13 @@ public class AutoComplete extends TestBase {
         String result = driver.findElement(By.xpath("//p[@id='result']")).getText();
         assertTrue(result.contains("Turkey"));
     }
+
+    @Test
+    public void test02() {
+        //Given user is on https://testcenter.techproeducation.com/index.php?page=autocomplete
+        driver.get("https://testcenter.techproeducation.com/index.php?page=autocomplete");
+        searchAndSelectFromList("Uni", "United Kingdom");
+        searchAndSelectFromList("Bah", "Bahamas");
+        searchAndSelectFromList("an", "Angola");
+    }
 }

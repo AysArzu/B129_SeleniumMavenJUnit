@@ -1,4 +1,4 @@
-package bireysel;
+package Lms_Tasks;
 
 import org.junit.Test;
 import org.openqa.selenium.By;

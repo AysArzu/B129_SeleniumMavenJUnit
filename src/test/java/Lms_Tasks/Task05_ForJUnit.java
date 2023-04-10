@@ -1,4 +1,4 @@
-package bireysel;
+package Lms_Tasks;
 
 import org.junit.Assert;
 import org.junit.Test;
