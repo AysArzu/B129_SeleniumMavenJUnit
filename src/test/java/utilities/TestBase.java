@@ -6,7 +6,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
@@ -37,7 +39,7 @@ public abstract class TestBase {
     @After
     public void tearDown() throws Exception {
         wait(3);
-      //  driver.close();
+        //  driver.close();
     }
 
     //HARD WAIT METHOD
@@ -131,9 +133,22 @@ public abstract class TestBase {
         //2.Save the screenhot in a path and Save with dynamic name
         String currentTime = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());//getting the current local date
 
-        String path = System.getProperty("user.dir")+"/test-output/Screenshots/"+currentTime+"image.png";//Where we save the image
+        String path = System.getProperty("user.dir") + "/test-output/Screenshots/" + currentTime + "image.png";//Where we save the image
         //3.Saving the IMAGE in the Path
-        FileUtils.copyFile(image,new File(path) );
+        FileUtils.copyFile(image, new File(path));
     }
+
+    //Explicit Wait
+    public static void visibleWait(WebElement element, int sayi) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(sayi));
+        wait.until(ExpectedConditions.visibilityOf(element));
+    }
+
+    //Alert Wait
+    public static void alertWait(int sayi) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(sayi));
+        wait.until(ExpectedConditions.alertIsPresent());
+    }
+
 
 }

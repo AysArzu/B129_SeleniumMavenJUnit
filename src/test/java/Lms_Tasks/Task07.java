@@ -16,33 +16,23 @@ public class Task07 extends TestBase {
     public void ekranaYaziYazma() {
         //- http://szimek.github.io/signature_pad/ sayfasına gidiniz
         driver.get("http://szimek.github.io/signature_pad/");
-        Actions actions = new Actions(driver);
-     /*   String source= driver.findElement(By.xpath("//canvas["))
-        actions.
-                clickAndHold(source).
-                moveByOffset(388, 34).//moveByOffset methodu ile isteğimiz koordinata elementimizi taşıyabiliriz.
-                release().
-                build().
-                perform();*/
-        //- Çıkan ekrana istediğiniz çizgi yada şekli çiziniz
-        // Canvas öğesini bulma
-        WebElement source = driver.findElement(By.cssSelector("canvas"));
+        WebElement yaziTahtasi = driver.findElement(By.xpath("//canvas"));
+        Actions actions = new Actions(driver).clickAndHold(yaziTahtasi);
 
-        // Çizgi çizme işlemi
-        Actions action = new Actions(driver);
-        action.moveToElement(source, 30, 30)
-                .clickAndHold()
-                .moveByOffset(50, 0)
-                .moveByOffset(-25, 50)
-                .moveByOffset(-25, -50)
-                .moveByOffset(0, 25)
-                .release()
-                .perform();
+        for (int i = 0; i < 10; i++) {
+            actions.moveByOffset(-5,-5);
+        }
+        for (int i = 0; i < 10; i++) {
+            actions.moveByOffset(0,5);
+        }
+        for (int i = 0; i < 10; i++) {
+            actions.moveByOffset(5,0);
+        }
+        actions.release().build().perform();
 
         //- Çizimden sonra clear butonuna basınız
         driver.findElement(By.xpath("//button[text()='Clear']")).click();
 
-        //- Sayfayi kapatiniz
-        driver.close();
+
     }
 }
