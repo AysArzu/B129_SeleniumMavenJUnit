@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="31.03">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Wait/C01_FileUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Wait/C02_ExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Wait/C03_FluentWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Wait/C04_ExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Wait/C05_ExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Waits/C01_FileUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Waits/C02_ExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Waits/C03_FluentWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Waits/C04_ExplicitWait.java" afterDir="false" />
+    <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="12.04">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day16_Exceptions/C01_NoSuchElementException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day16_Exceptions/C02_TimeOutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day16_Exceptions/C03_NullPointerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day16_Exceptions/C04_StaleElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day04/C01_Iframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day04/C02_WindowHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NTday14_FakerClass_FileExist/FakerClassOdevi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NTday14_FakerClass_FileExist/FakerClassOdevi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,81 +62,81 @@
       <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C01_FileUpload.fileUpload">
-    <configuration name="C01_FileUpload.fileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C04_StaleElement.staleElementExceptionTest4">
+    <configuration name="C02_TimeOutException.timeOutException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day15_FileUpload_Wait.*" />
+          <option name="PATTERN" value="day16_Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day15_FileUpload_Wait" />
-      <option name="MAIN_CLASS_NAME" value="day15_FileUpload_Wait.C01_FileUpload" />
-      <option name="METHOD_NAME" value="fileUpload" />
+      <option name="PACKAGE_NAME" value="day16_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="day16_Exceptions.C02_TimeOutException" />
+      <option name="METHOD_NAME" value="timeOutException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dummy.test08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_NullPointerException.nullPointerException2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lms_Tasks.*" />
+          <option name="PATTERN" value="day16_Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lms_Tasks" />
-      <option name="MAIN_CLASS_NAME" value="Lms_Tasks.Dummy" />
-      <option name="METHOD_NAME" value="test08" />
+      <option name="PACKAGE_NAME" value="day16_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="day16_Exceptions.C03_NullPointerException" />
+      <option name="METHOD_NAME" value="nullPointerException2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task07.ekranaYaziYazma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_StaleElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lms_Tasks.*" />
+          <option name="PATTERN" value="day16_Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lms_Tasks" />
-      <option name="MAIN_CLASS_NAME" value="Lms_Tasks.Task07" />
-      <option name="METHOD_NAME" value="ekranaYaziYazma" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129_SeleniumMavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lms_Tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lms_Tasks" />
-      <option name="MAIN_CLASS_NAME" value="Lms_Tasks.Task08" />
+      <option name="PACKAGE_NAME" value="day16_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="day16_Exceptions.C04_StaleElement" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task08.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_StaleElement.staleElementExceptionTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lms_Tasks.*" />
+          <option name="PATTERN" value="day16_Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lms_Tasks" />
-      <option name="MAIN_CLASS_NAME" value="Lms_Tasks.Task08" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="day16_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="day16_Exceptions.C04_StaleElement" />
+      <option name="METHOD_NAME" value="staleElementExceptionTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_StaleElement.staleElementExceptionTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129_SeleniumMavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day16_Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day16_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="day16_Exceptions.C04_StaleElement" />
+      <option name="METHOD_NAME" value="staleElementExceptionTest4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C01_FileUpload.fileUpload" />
-        <item itemvalue="JUnit.Task08.test" />
-        <item itemvalue="JUnit.Task07.ekranaYaziYazma" />
-        <item itemvalue="JUnit.Dummy.test08" />
-        <item itemvalue="JUnit.Task08" />
+        <item itemvalue="JUnit.C04_StaleElement.staleElementExceptionTest4" />
+        <item itemvalue="JUnit.C04_StaleElement.staleElementExceptionTest3" />
+        <item itemvalue="JUnit.C04_StaleElement" />
+        <item itemvalue="JUnit.C03_NullPointerException.nullPointerException2" />
+        <item itemvalue="JUnit.C02_TimeOutException.timeOutException" />
       </list>
     </recent_temporary>
   </component>
@@ -194,12 +189,20 @@
       <option name="project" value="LOCAL" />
       <updated>1681160815663</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="12.04">
+      <created>1681247321256</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681247321256</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="28.03" />
     <MESSAGE value="31.03" />
-    <option name="LAST_COMMIT_MESSAGE" value="31.03" />
+    <MESSAGE value="12.04" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.04" />
   </component>
 </project>

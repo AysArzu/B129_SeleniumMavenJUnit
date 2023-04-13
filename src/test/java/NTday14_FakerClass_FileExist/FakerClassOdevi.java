@@ -6,6 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
 import utilities.TestBase;
 
+import java.time.LocalDate;
+import java.time.ZoneId;
+
 public class FakerClassOdevi extends TestBase {
     @Test
     public void fakerClass() {
@@ -14,7 +17,7 @@ public class FakerClassOdevi extends TestBase {
         driver.get("https://facebook.com");
         driver.findElement(By.xpath("(//button[@value='1'])[3]")).click();
         //“create new account”  butonuna basin
-driver.findElement(By.xpath("(//a[@role='button'])[2]")).click();
+        driver.findElement(By.xpath("(//a[@role='button'])[2]")).click();
 
         //“firstName” giris kutusuna bir isim yazin
         driver.findElement(By.xpath("(//input[@type='text'])[2]"));
@@ -32,10 +35,17 @@ driver.findElement(By.xpath("(//a[@role='button'])[2]")).click();
         //Bir sifre girin
         faker.number().digit();
         //Tarih icin gun secin
-        faker.date().birthday();
+        LocalDate tarih = faker.date().birthday().toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+        tarih.getDayOfWeek();
+
         //Tarih icin ay secin
+        tarih.getMonth();
+
+
         //Tarih icin yil secin
+        tarih.getYear();
         //Cinsiyeti secin
+        faker.options().option("Erkek", "Kadin");
         //Isaretlediginiz cinsiyetin secili, diger cinsiyet kutusunun secili olmadigini test edin.
         //Sayfayi kapatin
 
