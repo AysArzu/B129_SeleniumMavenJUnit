@@ -1,154 +1,145 @@
 package utilities;
-
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-import static org.junit.Assert.assertTrue;
-
 public abstract class TestBase {
-    //TestBase class'indan obje olusturmanin onune gecilmesi icin abstract yapilabilir
-//Orn: TestBase base=new TestBase();
-//Bu class'a extend ettigimiz test classlarinda ulasabiliriz.
+    //TestBase class'ından Obje oluşturmanın önüne geçilmesi için abstract yapılabilir
+    //Orn: TestBase base = new TestBase()
+    //Bu class'a extends ettiğimiz test classlarından ulaşabiliriz
     protected static WebDriver driver;
-
+    protected static ExtentReports extentReports; //Raporlamayı başlatır
+    protected static ExtentHtmlReporter extentHtmlReporter;//Raporu HTML formatında düzenler
+    protected static ExtentTest extentTest;//Tüm test aşamalarında extentTest objesi ile bilgi ekleriz
     @Before
     public void setUp() throws Exception {
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(new ChromeOptions().addArguments("--remote-allow-origins=*"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-
+        //----------------------------------------------------------------------------------------
+        extentReports = new ExtentReports();
+        String tarih = new SimpleDateFormat("_hh_mm_ss_ddMMyyyy").format(new Date());
+        String dosyaYolu = "TestOutput/reports/extentReport_"+tarih+".html";
+        extentHtmlReporter = new ExtentHtmlReporter(dosyaYolu);
+        extentReports.attachReporter(extentHtmlReporter);
+        //Raporda gözükmesini istediğimiz bilgiler için
+        extentReports.setSystemInfo("Browser","Chrome");
+        extentReports.setSystemInfo("Teste","Erol");
+        extentHtmlReporter.config().setDocumentTitle("Extent Report");
+        extentHtmlReporter.config().setReportName("Smoke Test Raporu");
+        extentTest=extentReports.createTest("ExtentTest","Test Raporu");
     }
-
     @After
     public void tearDown() throws Exception {
+        extentReports.flush();
         wait(3);
-        //  driver.close();
+        driver.quit();
     }
-
     //HARD WAIT METHOD
-    public static void wait(int second) {
+    public static void wait(int saniye){
         try {
-            Thread.sleep(second * 1000);
+            Thread.sleep(saniye*1000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
     }
-
-    //ALERT ACCEPT
-    public static void alertAccept() {
+    //Alert ACCEPT
+    public static void alertAccept(){
         driver.switchTo().alert().accept();
     }
-
-    //ALERT DISMISS
-    public static void alertDismiss() {
+    //Alert DISMISS
+    public static void alertDismiss(){
         driver.switchTo().alert().dismiss();
     }
-    //ALERT GETTEXT()
-
-    public static void alertText() {
+    //Alert getText()
+    public static void alertText(){
         driver.switchTo().alert().getText();
     }
-
-    //ALERT PROMPTBOX
-    public static void alertprompt(String text) {
+    //Alert promptBox
+    public static void alertprompt(String text){
         driver.switchTo().alert().sendKeys(text);
     }
     //DropDown VisibleText
     /*
         Select select2 = new Select(gun);
         select2.selectByVisibleText("7");
-
         //ddmVisibleText(gun,"7"); --> Yukarıdaki kullanım yerine sadece method ile handle edebilirim
      */
-
-    public static void ddmVisibleText(WebElement ddm, String secenek) {
+    public static void ddmVisibleText(WebElement ddm,String secenek){
         Select select = new Select(ddm);
         select.selectByVisibleText(secenek);
     }
-
-    //DROPDOWN INDEX
-    public static void ddmIndex(WebElement ddm, int index) {
+    //DropDown Index
+    public static void ddmIndex(WebElement ddm,int index){
         Select select = new Select(ddm);
         select.selectByIndex(index);
     }
-
-    //DROPDOWN VALUE
-    public static void ddmValue(WebElement ddm, String secenek) {
+    //DropDown Value
+    public static void ddmValue(WebElement ddm,String secenek){
         Select select = new Select(ddm);
         select.selectByValue(secenek);
     }
-
-    //SwitchTo:Sayfalar arasi gecis methodu
-    //Index 0 dan baslar
-    //Girilen indexteki windowHandle degerini alarak o sayfaya gecis yapar.
-    public static void switchToWindow(int sayfaIndexi) {
-        List<String> windowHandleList = new ArrayList<>(driver.getWindowHandles());
-        driver.switchTo().window(windowHandleList.get(sayfaIndexi));
-
-    }//SwitchToWindow2
-
-    public static void window(int sayi) {
+    //SwitchToWindow1
+    public static void switchToWindow(int sayi){
+        List<String> tumWindowHandles = new ArrayList<String>(driver.getWindowHandles());
+        driver.switchTo().window(tumWindowHandles.get(sayi));
+    }
+    //SwitchToWindow2
+    public static void window(int sayi){
         driver.switchTo().window(driver.getWindowHandles().toArray()[sayi].toString());
     }
-
-    //AUTO COMPLETE REUSABLE METHOD
-    //THIS CODE IS USED FOR SELECTION AND VERIFYING OUR APP AUTO COMPLETE SEARCH FUNCTIONALITY
-    public static void searchAndSelectFromList(String keyword, String textFromList) {
-
-        //Sending a Keyword dynamically using parameter1
-        driver.findElement(By.id("myCountry")).sendKeys(keyword);
-        wait(4);
-        //Selecting an option from the list Dynamically using parameter2
-        driver.findElement(By.xpath("//div[@id='myCountryautocomplete-list']//div[.='" + textFromList + "']")).click();
-        //Nothing special.Just clicking on submit button
-        wait(3);
-        driver.findElement(By.xpath("//input[@type='button']")).click();
-        //Verifying if result contains the option that I selected dynamically using parameter.
-        wait(3);
-        assertTrue(driver.findElement(By.id("result")).getText().contains(textFromList));
-    }
-
-    //TAKE SCREENSHOT OF ENTIRE PAGE WITH THIS REUSABLE METHOD
-    public void takeScreenshotOfPage() throws IOException {
-        //1.Take screenshot using getScreenshotAs(OutputType.FILE); Screenhot is a FILE
-        File image = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
-        //2.Save the screenhot in a path and Save with dynamic name
-        String currentTime = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());//getting the current local date
-
-        String path = System.getProperty("user.dir") + "/test-output/Screenshots/" + currentTime + "image.png";//Where we save the image
-        //3.Saving the IMAGE in the Path
-        FileUtils.copyFile(image, new File(path));
-    }
-
-    //Explicit Wait
-    public static void visibleWait(WebElement element, int sayi) {
+    //EXPLICIT WAIT METHODS
+    //Visible Wait
+    public static void visibleWait(WebElement element,int sayi){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(sayi));
         wait.until(ExpectedConditions.visibilityOf(element));
     }
-
+    //VisibleElementLocator Wait
+    public static WebElement visibleWait(By locator, int sayi){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(sayi));
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
     //Alert Wait
-    public static void alertWait(int sayi) {
+    public static void alertWait(int sayi){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(sayi));
         wait.until(ExpectedConditions.alertIsPresent());
     }
-
-
+    //Tüm Sayfa ScreenShot
+    public static void tumSayfaResmi(){
+        String tarih = new SimpleDateFormat("_hh_mm_ss_ddMMyyyy").format(new Date());
+        String dosyaYolu = "TestOutput/screenshot"+tarih+".png";
+        TakesScreenshot ts = (TakesScreenshot) driver;
+        try {
+            FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE),new File(dosyaYolu));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    //WebElement ScreenShot
+    public static void webElementResmi(WebElement element){
+        String tarih = new SimpleDateFormat("_hh_mm_ss_ddMMyyyy").format(new Date());
+        String dosyaYolu = "TestOutput/webElementScreenshot"+tarih+".png";
+        try {
+            FileUtils.copyFile(element.getScreenshotAs(OutputType.FILE),new File(dosyaYolu));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

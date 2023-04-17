@@ -4,12 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="13.04">
-      <change afterPath="$PROJECT_DIR$/screenShot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ntday17_ScreenShot/C01_ScreenShot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day16_Exceptions/C05_StaleElementAlistirma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenShot.png" afterDir="false" />
+    <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="16.04">
+      <change afterPath="$PROJECT_DIR$/ test-output/screenShot_10_16_55_16042023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestOutput/reports/extentReport__11_34_54_17042023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestOutput/reports/extentReport__11_50_53_17042023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestOutput/reports/extentReport__12_06_33_17042023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestOutput/reports/extentReport__12_07_40_17042023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestOutput/reports/extentReport__12_09_07_17042023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestOutput/reports/extentReport__12_49_21_17042023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot_11_10_27_17042023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot_12_09_20_17042023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestOutput/webElementScreenshot_12_09_28_17042023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day18_ScreenShot_ExtentReport/C01_ScreenShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day18_ScreenShot_ExtentReport/C02_WebElementScreenShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day18_ScreenShot_ExtentReport/C03_ScreenShotClassWorks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day18_ScreenShot_ExtentReport/C04_ExtentsReportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day18_ScreenShot_ExtentReport/C05_ExtentReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day19_WebTables_ReadExcel/C01_WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day19_WebTables_ReadExcel/C02_ExcelRead.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenShot.png" beforeDir="false" afterPath="$PROJECT_DIR$/ test-output/screenShot_10_16_47_16042023.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ntday17_ScreenShot/C01_ScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ntday17_ScreenShot/C01_ScreenShot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/AutoComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bireysel/AutoComplete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/ScreenshotsOfEntirePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bireysel/ScreenshotsOfEntirePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bireysel/AutoComplete.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bireysel/AutoComplete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenShot.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestOutput/screenShot.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,94 +67,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "full.screen.before.presentation.mode": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C01_ScreenShot.screenShotTest">
-    <configuration name="C01_ScreenShot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C01_WebTables.printDataTest">
+    <configuration name="C01_WebTables.printDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ntday17_ScreenShot.*" />
+          <option name="PATTERN" value="day19_WebTables_ReadExcel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Ntday17_ScreenShot" />
-      <option name="MAIN_CLASS_NAME" value="Ntday17_ScreenShot.C01_ScreenShot" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_ScreenShot.screenShotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129_SeleniumMavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ntday17_ScreenShot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Ntday17_ScreenShot" />
-      <option name="MAIN_CLASS_NAME" value="Ntday17_ScreenShot.C01_ScreenShot" />
-      <option name="METHOD_NAME" value="screenShotTest" />
+      <option name="PACKAGE_NAME" value="day19_WebTables_ReadExcel" />
+      <option name="MAIN_CLASS_NAME" value="day19_WebTables_ReadExcel.C01_WebTables" />
+      <option name="METHOD_NAME" value="printDataTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_StaleElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_WebTables.satir3VerileriPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day16_Exceptions.*" />
+          <option name="PATTERN" value="day19_WebTables_ReadExcel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day16_Exceptions" />
-      <option name="MAIN_CLASS_NAME" value="day16_Exceptions.C04_StaleElement" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_StaleElement.staleElementExceptionTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129_SeleniumMavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day16_Exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day16_Exceptions" />
-      <option name="MAIN_CLASS_NAME" value="day16_Exceptions.C04_StaleElement" />
-      <option name="METHOD_NAME" value="staleElementExceptionTest3" />
+      <option name="PACKAGE_NAME" value="day19_WebTables_ReadExcel" />
+      <option name="MAIN_CLASS_NAME" value="day19_WebTables_ReadExcel.C01_WebTables" />
+      <option name="METHOD_NAME" value="satir3VerileriPrint" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_StaleElement.staleElementExceptionTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_WebTables.table1Print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day16_Exceptions.*" />
+          <option name="PATTERN" value="day19_WebTables_ReadExcel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day16_Exceptions" />
-      <option name="MAIN_CLASS_NAME" value="day16_Exceptions.C04_StaleElement" />
-      <option name="METHOD_NAME" value="staleElementExceptionTest4" />
+      <option name="PACKAGE_NAME" value="day19_WebTables_ReadExcel" />
+      <option name="MAIN_CLASS_NAME" value="day19_WebTables_ReadExcel.C01_WebTables" />
+      <option name="METHOD_NAME" value="table1Print" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05_ExtentReport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129_SeleniumMavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day18_ScreenShot_ExtentReport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day18_ScreenShot_ExtentReport" />
+      <option name="MAIN_CLASS_NAME" value="day18_ScreenShot_ExtentReport.C05_ExtentReport" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05_ExtentReport.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129_SeleniumMavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day18_ScreenShot_ExtentReport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day18_ScreenShot_ExtentReport" />
+      <option name="MAIN_CLASS_NAME" value="day18_ScreenShot_ExtentReport.C05_ExtentReport" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C01_ScreenShot.screenShotTest" />
-        <item itemvalue="JUnit.C01_ScreenShot" />
-        <item itemvalue="JUnit.C04_StaleElement.staleElementExceptionTest4" />
-        <item itemvalue="JUnit.C04_StaleElement.staleElementExceptionTest3" />
-        <item itemvalue="JUnit.C04_StaleElement" />
+        <item itemvalue="JUnit.C01_WebTables.printDataTest" />
+        <item itemvalue="JUnit.C01_WebTables.satir3VerileriPrint" />
+        <item itemvalue="JUnit.C01_WebTables.table1Print" />
+        <item itemvalue="JUnit.C05_ExtentReport" />
+        <item itemvalue="JUnit.C05_ExtentReport.test" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681381233515</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="16.04">
+      <created>1681592729172</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681592729172</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,6 +241,7 @@
     <MESSAGE value="31.03" />
     <MESSAGE value="12.04" />
     <MESSAGE value="13.04" />
-    <option name="LAST_COMMIT_MESSAGE" value="13.04" />
+    <MESSAGE value="16.04" />
+    <option name="LAST_COMMIT_MESSAGE" value="16.04" />
   </component>
 </project>

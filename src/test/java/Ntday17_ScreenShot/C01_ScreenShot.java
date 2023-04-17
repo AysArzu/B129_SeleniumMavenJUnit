@@ -45,10 +45,10 @@ public class C01_ScreenShot extends TestBase {
     @Test
     public void screenShotTest2() throws IOException {
         driver.get("https://amazon.com");
-String tarih =  new SimpleDateFormat("_hh_mm_ss_ddMMyyyy").format(new Date());
+        String tarih = new SimpleDateFormat("_hh_mm_ss_ddMMyyyy").format(new Date());
         String dosyaYolu = " test-output/screenShot" + tarih + ".png";
         TakesScreenshot ts = (TakesScreenshot) driver;
-        FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE),new File(dosyaYolu));
+        FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE), new File(dosyaYolu));
     }
 
 
