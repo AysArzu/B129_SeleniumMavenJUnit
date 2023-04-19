@@ -21,7 +21,7 @@ public class C01_ScreenShot extends TestBase {
         //Techproeducation sayfasına gidelim
 
         driver.get("https://techproeducation.com");
-// 1.Adimilk olarak ekran resmini alacagimiz dosyayi nereye kaydedecegimizi belirtiriz
+        // 1.Adimilk olarak ekran resmini alacagimiz dosyayi nereye kaydedecegimizi belirtiriz
         // Proje seviyesinden new directory deyip resim dosyalarimizi bu klasorun icine kaydetsin.
 
         String path = "test-output/screenShot.png";

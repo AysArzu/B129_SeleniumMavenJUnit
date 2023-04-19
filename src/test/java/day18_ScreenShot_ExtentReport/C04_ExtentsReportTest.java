@@ -31,13 +31,13 @@ public class C04_ExtentsReportTest extends TestBase {
 
         //Raporda gözükmesini istediğimiz bilgiler için
         extentReports.setSystemInfo("Browser","Chrome");
-        extentReports.setSystemInfo("Teste","Erol");
-        extentHtmlReporter.config().setDocumentTitle("Extent Report");
-        extentHtmlReporter.config().setReportName("Smoke Test Raporu");
+        extentReports.setSystemInfo("Tester","Ayse");
+        extentHtmlReporter.config().setDocumentTitle("Extent Report");//Baslik ekledim
+        extentHtmlReporter.config().setReportName("Smoke Test Raporu");//rapor adini yazdik
         extentTest=extentReports.createTest("ExtentTest","Test Raporu");
 
         driver.get("https://amazon.com");
-        extentTest.info("Amazon sayfasına gidildi");
+        extentTest.info("Amazon sayfasına gidildi");//bilgi raporu ekledik
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("iphone", Keys.ENTER);
         extentTest.info("Amazon sayfasında iphone araması yapıldı");
         WebElement sonucYazisi = driver.findElement(By.xpath("(//*[@class='sg-col-inner'])[1]"));
@@ -45,7 +45,10 @@ public class C04_ExtentsReportTest extends TestBase {
         extentTest.info("Sonuc yazısı konsola yazdırıldı");
         extentTest.pass("Sayfa kapatıldı");
 
-
+//acmak icin ya uzerine tiklayip ust tarafta browser cesitleri cikiyor ona tiklariz ya da
+// raporun uzerine sag tiklayip
+// open in diyelim sonra
+// browser i secelim o sekulde raporu acariz
 
 
 

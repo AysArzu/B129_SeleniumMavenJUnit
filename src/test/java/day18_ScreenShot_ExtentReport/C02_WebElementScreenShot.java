@@ -26,8 +26,8 @@ public class C02_WebElementScreenShot extends TestBase {
         //Sonuc yazisinin resmini aliniz
         WebElement sonucYazisi = driver.findElement(By.xpath("//*[@class='sg-col-inner']"));
         String tarih = new SimpleDateFormat("_hh_mm_ss_ddMMyyyy").format(new Date());
-        String webElementDosyaYolu = "TestOutput/screenShot" + tarih + ".png";
-        FileUtils.copyFile(sonucYazisi.getScreenshotAs(OutputType.FILE),new File(webElementDosyaYolu));
+        String dosyaYolu = "TestOutput/WebElemetScreenShot" + tarih + ".png";
+        FileUtils.copyFile(sonucYazisi.getScreenshotAs(OutputType.FILE),new File(dosyaYolu));
        /*
        Sadece bir web elementin resmini almak istersek, FileUtils.copyFile() methoduyla
        locate ettigimiz web elementi getScreenshotAs() methodu kullanarak resmini alabiliriz
