@@ -42,7 +42,7 @@ public abstract class TestBase {
     @After
     public void tearDown() throws Exception {
         wait(3);
-        driver.quit();
+        //     driver.quit();
     }
 
     //HARD WAIT METHOD
@@ -140,7 +140,7 @@ public abstract class TestBase {
     }
 
     //WebElement ScreenShot
-    public static void webElementResmi(WebElement element) {
+    public static void takeScreenshot(WebElement element) {
         String tarih = new SimpleDateFormat("_hh_mm_ss_ddMMyyyy").format(new Date());
         String dosyaYolu = "TestOutput/screenshot/webElementScreenshot" + tarih + ".png";
         try {
@@ -169,4 +169,67 @@ public abstract class TestBase {
         System.out.println(satirSutun.getText());
     }
 
+    //Bu method ile herhangi bir elemente JS Executer kullanarak tiklayabilirim.
+    public void clickByJS(WebElement element) {
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        //executeScript() methodu ile uygun scripti calistiriyorum.
+        jse.executeScript("arguments[0].click();", element);
+
+    }
+
+    //Bu method ile herhangi bir elemente JS Executer kullanarak ekrani kadirma yapabilirim.
+    public void scrollIntoView(WebElement element) {
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+
+    //Bu method ile sayfayi en alta kaydirabilirim
+    public void scrollEndJS() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+
+    }
+
+    //Bu method ile sayfayi en uste kaydirabilirim
+    public void scrollTopJS() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0,-document.body.scrollHeight)");
+    }
+
+    //Bu method sendKeys() methodunun alternetifidir
+    public void typeWithJS(String text, WebElement element) {
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].setAttribute('value','" + text + "')", element);
+
+    }
+    //JS SendKeys
+    public void sendKeysJS(WebElement element,String text){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].value='"+text+"'",element);
+    }
+
+    //Bu method ile attribute degerlerini alabilirim
+    public void getValueByJS(String id, String attributeName) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        String attribute_Value = js.executeScript("return document.getElementById('" + id + "')." + attributeName).toString();
+        System.out.println("Attribute Value: = " + attribute_Value);
+//        NOT: document.querySelector("p").value;  -> TAG KULLANILABILIR
+//             document.querySelector(".example").value; -> CSS DEGERI KULLANILABILIR
+//             document.querySelector("#example").value; -> CSS DEGERI KULLANILABILIR
+
+
+    }
+
+    //Click Method
+    public void click(WebElement element) {
+        try {
+            element.click();
+        } catch (Exception e) {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].click();", element);
+        }
+
+
+    }
 }

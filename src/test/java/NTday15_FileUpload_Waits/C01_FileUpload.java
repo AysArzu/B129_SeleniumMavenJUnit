@@ -1,4 +1,4 @@
-package day15_FileUpload_Waits;
+package NTday15_FileUpload_Waits;
 
 import org.junit.Test;
 import org.openqa.selenium.By;

@@ -1,11 +1,10 @@
-package day15_FileUpload_Waits;
+package NTday15_FileUpload_Waits;
 
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import utilities.TestBase;
 
 import java.time.Duration;

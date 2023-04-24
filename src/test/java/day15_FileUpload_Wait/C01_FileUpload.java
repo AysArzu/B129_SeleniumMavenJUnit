@@ -20,7 +20,7 @@ public class C01_FileUpload extends TestBase {
           /*
         Bir Web sayfasında upload işlemi yapmamız gerekirse;
             1-Öncelikle upload edeceğimiz webelementi locate ederiz
-            2-Upload edeceğimiz dosya yolunu bir string'e assingn ederiz
+            2-Upload edeceğimiz dosya yolunu bir string'e assign ederiz
             3-Locate ettiğimiz webelement'e sendkeys() methodu ile dosyayolunu aldığımız string değişkeni göndeririz
          */
         driver.get("https://the-internet.herokuapp.com/upload");

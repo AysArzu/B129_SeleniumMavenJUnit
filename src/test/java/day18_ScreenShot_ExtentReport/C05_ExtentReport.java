@@ -24,7 +24,7 @@ public class C05_ExtentReport extends TestBase {
         extentTest.info("Arama bölümünde java aratıldı");
         //ve sonuc yazısının resmini alalım
         WebElement sonucYazisi = driver.findElement(By.xpath("//h1"));
-        webElementResmi(sonucYazisi);//Method kullanarak Webelementin resmini aldık
+        takeScreenshot(sonucYazisi);//Method kullanarak Webelementin resmini aldık
         extentTest.info("Sonuc yazısının resmi alındı");
         extentTest.pass("Test sonlandırıldı");
         extentReports.flush();

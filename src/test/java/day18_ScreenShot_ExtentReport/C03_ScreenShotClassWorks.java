@@ -25,7 +25,7 @@ public class C03_ScreenShotClassWorks extends TestBase {
 
         //ve sonuc yazısının resmini alalım
         WebElement sonucYazisi = driver.findElement(By.xpath("//h1"));
-        webElementResmi(sonucYazisi);//Method kullanarak Webelementin resmini aldık
+        takeScreenshot(sonucYazisi);//Method kullanarak Webelementin resmini aldık
 
         //Yeni bir sekmede amazona gidelim
         driver.switchTo().newWindow(WindowType.TAB);
@@ -39,7 +39,7 @@ public class C03_ScreenShotClassWorks extends TestBase {
 
         //ve sonuc yazısının resmini alalım
         WebElement sonucYazisi2 = driver.findElement(By.xpath("(//*[@class='sg-col-inner'])[1]"));
-        webElementResmi(sonucYazisi2);//Method kullanarak Webelementin resmini aldık
+        takeScreenshot(sonucYazisi2);//Method kullanarak Webelementin resmini aldık
 
         //tekrar tecpro sayfasına geçelim ve sayfa resmini alalım
         window(0);

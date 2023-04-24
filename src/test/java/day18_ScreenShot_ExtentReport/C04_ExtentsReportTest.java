@@ -48,7 +48,7 @@ public class C04_ExtentsReportTest extends TestBase {
 //acmak icin ya uzerine tiklayip ust tarafta browser cesitleri cikiyor ona tiklariz ya da
 // raporun uzerine sag tiklayip
 // open in diyelim sonra
-// browser i secelim o sekulde raporu acariz
+// browser i secelim o sekilde raporu acariz
 
 
 
