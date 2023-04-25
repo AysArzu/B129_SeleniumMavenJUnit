@@ -4,79 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="19.04">
-      <change afterPath="$PROJECT_DIR$/TestOutput/reports/extendsReport__09_11_53_24042023.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/Screenshot_12_33_33_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/Screenshot_12_33_36_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/Screenshot_12_33_40_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/Screenshot_12_33_44_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_08_32_37_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_08_50_06_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_08_59_29_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_08_59_36_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_00_12_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_00_19_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_01_06_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_01_11_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_01_14_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_01_18_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_02_20_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_02_31_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_02_42_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_02_52_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_03_58_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_03_59_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_04_06_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_05_42_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_05_49_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_06_16_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_06_25_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_06_51_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_07_00_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_08_45_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_08_52_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_09_45_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_09_51_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_11_56_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_09_12_02_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_12_27_37_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_12_27_39_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_12_27_40_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_12_43_15_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_12_43_18_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_12_43_21_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/screenshot_12_43_25_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestOutput/screenshot/webElementScreenshot_12_15_40_24042023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NTday21_JSExecutor/C01_JSExecutor_Click.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NTday21_JSExecutor/C02_JSExecutor_Scroll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NTday21_JSExecutor/C03_JSExecuter_Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NTday21_JSExecutor/C04_JSExecutor_GetValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/bireyselCalisma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/multiSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C01_JSExecuter_Click.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C02_JSExecuter_Scroll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C03_JSExecuter_Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C04_JSExecuter_GetValue.java" afterDir="false" />
+    <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="24.04">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B129_SeleniumMavenJUnit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day22_Log4J/C01_Log4J.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day22_Log4J/C02_Log4jTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Wait/C01_FileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Wait/C01_FileUpload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Waits/C01_FileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NTday15_FileUpload_Waits/C01_FileUpload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Waits/C02_ExplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NTday15_FileUpload_Waits/C02_ExplicitWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Waits/C03_FluentWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NTday15_FileUpload_Waits/C03_FluentWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Waits/C04_ExplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NTday15_FileUpload_Waits/C04_ExplicitWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day18_ScreenShot_ExtentReport/C03_ScreenShotClassWorks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day18_ScreenShot_ExtentReport/C03_ScreenShotClassWorks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day18_ScreenShot_ExtentReport/C04_ExtentsReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day18_ScreenShot_ExtentReport/C04_ExtentsReportTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day18_ScreenShot_ExtentReport/C05_ExtentReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day18_ScreenShot_ExtentReport/C05_ExtentReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Lms_Tasks/Task08.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lms_Tasks/Task08.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day15_FileUpload_Waits/C01_FileUpload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day15_FileUpload_Waits/C02_ExplicitWait.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day15_FileUpload_Waits/C03_FluentWait.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day15_FileUpload_Waits/C04_ExplicitWait.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day18_ScreenShot_ExtentReport/C03_ScreenShotClassWorks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day18_ScreenShot_ExtentReport/C03_ScreenShotClassWorks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day18_ScreenShot_ExtentReport/C05_ExtentReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day18_ScreenShot_ExtentReport/C05_ExtentReport.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,11 +63,59 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit\src\test\java\resources" />
+      <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit" />
       <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit\.idea" />
+      <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C03_JSExecuter_Type (1)">
+  <component name="RunManager" selected="JUnit.C02_Log4jTest.log4jTest1">
+    <configuration name="C01_Log4J" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129_SeleniumMavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day22_Log4J.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day22_Log4J" />
+      <option name="MAIN_CLASS_NAME" value="day22_Log4J.C01_Log4J" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_Log4J.log4JTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129_SeleniumMavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day22_Log4J.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day22_Log4J" />
+      <option name="MAIN_CLASS_NAME" value="day22_Log4J.C01_Log4J" />
+      <option name="METHOD_NAME" value="log4JTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_Log4jTest.log4jTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129_SeleniumMavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day22_Log4J.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day22_Log4J" />
+      <option name="MAIN_CLASS_NAME" value="day22_Log4J.C02_Log4jTest" />
+      <option name="METHOD_NAME" value="log4jTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C03_JSExecuter_Type (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
@@ -143,53 +127,6 @@
       <option name="PACKAGE_NAME" value="NTday21_JSExecutor" />
       <option name="MAIN_CLASS_NAME" value="NTday21_JSExecutor.C03_JSExecuter_Type" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_JSExecuter_Type.typeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129_SeleniumMavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day21_JSExecuter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day21_JSExecuter" />
-      <option name="MAIN_CLASS_NAME" value="day21_JSExecuter.C03_JSExecuter_Type" />
-      <option name="METHOD_NAME" value="typeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_JSExecuter_GetValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129_SeleniumMavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day21_JSExecuter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day21_JSExecuter" />
-      <option name="MAIN_CLASS_NAME" value="day21_JSExecuter.C04_JSExecuter_GetValue" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_JSExecuter_GetValue.getValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129_SeleniumMavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day21_JSExecuter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day21_JSExecuter" />
-      <option name="MAIN_CLASS_NAME" value="day21_JSExecuter.C04_JSExecuter_GetValue" />
-      <option name="METHOD_NAME" value="getValueTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_Log4jTest.log4jTest1" />
+        <item itemvalue="JUnit.C01_Log4J.log4JTest" />
+        <item itemvalue="JUnit.C01_Log4J" />
         <item itemvalue="JUnit.C03_JSExecuter_Type (1)" />
         <item itemvalue="JUnit.Task10.task10" />
-        <item itemvalue="JUnit.C04_JSExecuter_GetValue.getValueTest" />
-        <item itemvalue="JUnit.C03_JSExecuter_Type.typeTest" />
-        <item itemvalue="JUnit.C04_JSExecuter_GetValue" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681898446317</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="24.04">
+      <created>1682368172096</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682368172096</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -297,6 +241,7 @@
     <MESSAGE value="16.04" />
     <MESSAGE value="18.04" />
     <MESSAGE value="19.04" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.04" />
+    <MESSAGE value="24.04" />
+    <option name="LAST_COMMIT_MESSAGE" value="24.04" />
   </component>
 </project>

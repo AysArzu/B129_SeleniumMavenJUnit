@@ -33,6 +33,8 @@ public abstract class TestBase {
 
     @Before
     public void setUp() throws Exception {
+        //Configurator.initialize(null,"log4j2.xml");
+        // Eğer log4j2.xml dosyasını proje seviyesinde oluşturursanız bu ayarlamayı yapmak gerekir.driver i calistirmadan once
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(new ChromeOptions().addArguments("--remote-allow-origins=*"));
         driver.manage().window().maximize();
