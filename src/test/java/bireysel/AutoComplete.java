@@ -23,6 +23,9 @@ public class AutoComplete extends TestBase {
         //Verify the result contains "Turkey"
         String result = driver.findElement(By.xpath("//p[@id='result']")).getText();
         assertTrue(result.contains("Turkey"));
+
+
+        searchAndSelectFromList("uni", "United Kingdom");
     }
 
 

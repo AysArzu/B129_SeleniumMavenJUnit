@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="24.04">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B129_SeleniumMavenJUnit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day22_Log4J/C01_Log4J.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day22_Log4J/C02_Log4jTest.java" afterDir="false" />
+    <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="25.04">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/AutoComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bireysel/AutoComplete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682368172096</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="25.04">
+      <created>1682454434773</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682454434774</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,6 +243,7 @@
     <MESSAGE value="18.04" />
     <MESSAGE value="19.04" />
     <MESSAGE value="24.04" />
-    <option name="LAST_COMMIT_MESSAGE" value="24.04" />
+    <MESSAGE value="25.04" />
+    <option name="LAST_COMMIT_MESSAGE" value="25.04" />
   </component>
 </project>

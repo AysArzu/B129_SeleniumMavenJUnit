@@ -22,6 +22,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import static org.junit.Assert.assertTrue;
+
 public abstract class TestBase {
     //TestBase class'ından Obje oluşturmanın önüne geçilmesi için abstract yapılabilir
     //Orn: TestBase base = new TestBase()
@@ -232,6 +234,23 @@ public abstract class TestBase {
             js.executeScript("arguments[0].click();", element);
         }
 
+
+    }
+    //AUTO COMPLETE REUSABLE METHOD
+    //THIS CODE IS USED FOR SELECTING AND VERIFYING OUR APP AUTO COMPLETE SEARXH FUNCTIONALITY
+    //NOTE:THIS REUSABLE METHOD DESIGNED FOR OUR CURRENT PROJECT. THIS MAY NOT WORK FOR NEW PROJECTS,
+    // BUT CAN BE MODIFIED AND USED FOR THAT NEW PROJECT
+    //NOTE:YOU WILL SEE THIS KIND OF REUSABLE METHOD THAT IS SPECIFIC TO OWN PROJECT
+    public static void searchAndSelectFromList(String keyword, String textFromList){
+        //Sending a KEYWORD DYNAMICALLY using PARAMETER 1
+        driver.findElement(By.id("myCountry")).sendKeys(keyword); //keyword
+
+        //Selecting an option from the list DYNAMICALLY using PARAMETER 2
+        driver.findElement(By.xpath("//div[@id='myCountryautocomplete-list']//div[.='"+textFromList+"']")).click();
+        //Nothing special. Just clicking on submit button
+        String result = driver.findElement(By.xpath("//p[@id='result']")).getText();
+        //Verifying if result contains the option that i selected DYNAMICALLY using PARAMETER 2
+        assertTrue(result.contains(textFromList));
 
     }
 }
