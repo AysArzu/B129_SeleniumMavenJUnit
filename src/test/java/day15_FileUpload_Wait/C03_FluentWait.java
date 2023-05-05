@@ -24,7 +24,7 @@ public class C03_FluentWait extends TestBase {
 
         //Hello World! Yazının sitede oldugunu test edin
         Wait<WebDriver> wait = new FluentWait<>(driver).
-                withTimeout(Duration.ofDays(20)). //Fluent icin mac sureyi belirtir
+                withTimeout(Duration.ofDays(20)). //Fluent icin max sureyi belirtir
                 pollingEvery(Duration.ofSeconds(4)).//Her ic saniyede bir webElementi kontrol eder
                 withMessage("Ignore Exception").//zorunlu degil
                 ignoring(NoSuchElementException.class);//Exception'i handle eder

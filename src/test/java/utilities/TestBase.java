@@ -181,7 +181,7 @@ public abstract class TestBase {
 
     }
 
-    //Bu method ile herhangi bir elemente JS Executer kullanarak ekrani kadirma yapabilirim.
+    //Bu method ile herhangi bir elemente JS Executer kullanarak ekrani kaydirma yapabilirim.
     public void scrollIntoView(WebElement element) {
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("arguments[0].scrollIntoView(true);", element);

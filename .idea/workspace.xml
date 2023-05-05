@@ -5,9 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebbe1fef-8852-44b7-a5a1-38520f952510" name="Changes" comment="25.04">
+      <change afterPath="$PROJECT_DIR$/TestOutput/extentReport/reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/ulkeler.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SSG/SSG_ExtentReports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SSG/SSG_FileExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SSG/SSG_JSExecuterTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SSG/SSG_JSExecutorTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bireysel/Trendyol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day06/C01_Waits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day06/C02_Screenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice_day06/C03_ReadExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bireysel/AutoComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bireysel/AutoComplete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lms_Tasks/Task10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day08/Odev02_YanlisEmailTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08/Odev02_YanlisEmailTesti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day09_DropDown_Allerts/C01_DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day09_DropDown_Allerts/C01_DropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Wait/C03_FluentWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Wait/C03_FluentWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Wait/C04_ExplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day15_FileUpload_Wait/C04_ExplicitWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C01_JSExecuter_Click.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day21_JSExecuter/C01_JSExecuter_Click.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice_day05/C01_ActionMoveToElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice_day05/C01_ActionMoveToElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bireysel/AutoComplete.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bireysel/AutoComplete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day08/Odev02_YanlisEmailTesti.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day08/Odev02_YanlisEmailTesti.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day09_DropDown_Allerts/C01_DropDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day09_DropDown_Allerts/C01_DropDown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day15_FileUpload_Wait/C04_ExplicitWait.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day15_FileUpload_Wait/C04_ExplicitWait.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,85 +80,86 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit\src\resources" />
       <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit" />
       <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit\.idea" />
       <recent name="C:\Users\Sistem\IdeaProjects\B129_SeleniumMavenJUnit\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C02_Log4jTest.log4jTest1">
-    <configuration name="C01_Log4J" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SSG_ExtentReports.extentReportsTest">
+    <configuration name="C02_DropDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day22_Log4J.*" />
+          <option name="PATTERN" value="day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day22_Log4J" />
-      <option name="MAIN_CLASS_NAME" value="day22_Log4J.C01_Log4J" />
+      <option name="PACKAGE_NAME" value="day08" />
+      <option name="MAIN_CLASS_NAME" value="day08.C02_DropDown" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_Log4J.log4JTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SSG_ExtentReports.extentReportsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day22_Log4J.*" />
+          <option name="PATTERN" value="SSG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day22_Log4J" />
-      <option name="MAIN_CLASS_NAME" value="day22_Log4J.C01_Log4J" />
-      <option name="METHOD_NAME" value="log4JTest" />
+      <option name="PACKAGE_NAME" value="SSG" />
+      <option name="MAIN_CLASS_NAME" value="SSG.SSG_ExtentReports" />
+      <option name="METHOD_NAME" value="extentReportsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_Log4jTest.log4jTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SSG_FileExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day22_Log4J.*" />
+          <option name="PATTERN" value="SSG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day22_Log4J" />
-      <option name="MAIN_CLASS_NAME" value="day22_Log4J.C02_Log4jTest" />
-      <option name="METHOD_NAME" value="log4jTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_JSExecuter_Type (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B129_SeleniumMavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NTday21_JSExecutor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="NTday21_JSExecutor" />
-      <option name="MAIN_CLASS_NAME" value="NTday21_JSExecutor.C03_JSExecuter_Type" />
+      <option name="PACKAGE_NAME" value="SSG" />
+      <option name="MAIN_CLASS_NAME" value="SSG.SSG_FileExists" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task10.task10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SSG_FileExists.fileExistsTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B129_SeleniumMavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lms_Tasks.*" />
+          <option name="PATTERN" value="SSG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lms_Tasks" />
-      <option name="MAIN_CLASS_NAME" value="Lms_Tasks.Task10" />
-      <option name="METHOD_NAME" value="task10" />
+      <option name="PACKAGE_NAME" value="SSG" />
+      <option name="MAIN_CLASS_NAME" value="SSG.SSG_FileExists" />
+      <option name="METHOD_NAME" value="fileExistsTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSG_FileExists.fileExistsTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B129_SeleniumMavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SSG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SSG" />
+      <option name="MAIN_CLASS_NAME" value="SSG.SSG_FileExists" />
+      <option name="METHOD_NAME" value="fileExistsTest3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C02_Log4jTest.log4jTest1" />
-        <item itemvalue="JUnit.C01_Log4J.log4JTest" />
-        <item itemvalue="JUnit.C01_Log4J" />
-        <item itemvalue="JUnit.C03_JSExecuter_Type (1)" />
-        <item itemvalue="JUnit.Task10.task10" />
+        <item itemvalue="JUnit.SSG_ExtentReports.extentReportsTest" />
+        <item itemvalue="JUnit.SSG_FileExists.fileExistsTest3" />
+        <item itemvalue="JUnit.SSG_FileExists.fileExistsTest2" />
+        <item itemvalue="JUnit.SSG_FileExists" />
+        <item itemvalue="JUnit.C02_DropDown" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682454434774</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="25.04">
+      <created>1682491127637</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682491127637</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

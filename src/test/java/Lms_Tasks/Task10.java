@@ -82,16 +82,16 @@ public class Task10 extends TestBase {
         String path = way + "\\Downloads\\chromedriver_win32.zip";
         boolean isExist = Files.exists(Paths.get(path));
         assertTrue(isExist);
-extentTest.info("Driver'in indiğini doğruladim.");
+        extentTest.info("Driver'in indiğini doğruladim.");
 
         //İndirmiş olduğumuz dosyayı silelim
         File dosya = new File(path);
         dosya.delete();
-extentTest.info("İndirmiş olduğumuz dosyayı sildim");
+        extentTest.info("İndirmiş olduğumuz dosyayı sildim");
 
         //Silindiğini doğrulayalım
         assertFalse(Files.exists(Path.of(path)));
-extentTest.info("Dosyanin silindigini dogruladim");
+        extentTest.info("Dosyanin silindigini dogruladim");
 
         extentTest.pass("test sonlandırıldı");
 

@@ -10,7 +10,7 @@ import utilities.TestBase;
 import java.util.Set;
 public class C01_ActionMoveToElement extends TestBase {
     // https://amazon.com adresine gidiniz
-    // sag ust bolumde bulunan dil secenek menusunun acilmasi icin mause'u bu menunun ustune getirelim
+    // sag ust bolumde bulunan dil secenek menusunun acilmasi icin mouse'u bu menunun ustune getirelim
     // Change country/region butonuna basiniz
     // United States dropdown'undan 'Turkey (Türkiye)' seciniz
     // Go to website butonuna tiklayiniz

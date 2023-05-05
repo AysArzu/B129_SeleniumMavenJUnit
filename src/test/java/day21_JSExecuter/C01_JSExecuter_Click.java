@@ -33,10 +33,10 @@ public class C01_JSExecuter_Click extends TestBase {
         //submitButton.click();==>Selenium click() calismadi. ElementClickInterceptedException verdi.
         //JS Executer deneyecegim.
         //Driver'i JavascriptExecuter classina "cast" ediyorum
-//        JavascriptExecutor jse = (JavascriptExecutor) driver;
-//
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+
 //        //executeScript() methodu ile uygun scripti calistiriyorum.
-//        jse.executeScript("arguments[0].click();", submitButton);
+        jse.executeScript("arguments[0].click();", submitButton);
 
         //clickByJS methodu olusturarak gerekli yerlerde tiklama yapabiliriz.
         clickByJS(submitButton);//TestBase'de olusturdum

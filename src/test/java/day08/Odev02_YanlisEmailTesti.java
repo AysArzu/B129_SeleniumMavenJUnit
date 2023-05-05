@@ -54,6 +54,7 @@ public class Odev02_YanlisEmailTesti {
         Assert.assertEquals(title1, title2);
        /*
         WebElement logged = driver.findElement(By.xpath(" //a[text()=' Logged in as ']"));
-        System.out.println(!logged.isDisplayed());*/
+        System.out.println(!logged.isDisplayed());
+        */
     }
 }
